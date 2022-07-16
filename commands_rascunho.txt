@@ -1,0 +1,27 @@
+commands sublimetext3: 
+abrir terminal: Tools> Command Pallet>  Terminus: Open Default Shell in Panel
+
+--------------------------------------------------------------------------------------
+Virtual Enviroment:
+
+criar venv -> py -3 -m venv --system-site-packages venv
+ativar venv ->  venv\Scripts\activate
+desativar venv -> deactivate
+
+--------------------------------------------------------------------------------------
+postman
+
+email: viniciuschaves@poli.ufrj.br
+Username: Vinicius667
+password: vapFz8zbbXYyWBm
+
+user POST example:
+	url = http://127.0.0.1:5000/user
+	method = POST
+	Body =
+		{
+	    "name":"Bill Gates",
+	    "email":"teste1@gmail.com",
+	    "address":"Rua Benedita Amaral Pinto, 680",
+	    "phone":"48447565"
+		}
